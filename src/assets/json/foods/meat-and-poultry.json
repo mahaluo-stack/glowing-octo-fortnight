@@ -1,0 +1,103 @@
+{
+    "meat-and-poultry": [
+        {
+            "name": "Chicken Breast",
+            "nutrition": {
+                "calories": {
+                    "value": 165,
+                    "unit": "kcal"
+                },
+                "protein": {
+                    "value": 31,
+                    "unit": "g"
+                },
+                "fat": {
+                    "value": 3.6,
+                    "unit": "g"
+                },
+                "sodium": {
+                    "value": 74,
+                    "unit": "mg"
+                },
+                "iron": {
+                    "value": 0.6,
+                    "unit": "mg"
+                },
+                "zinc": {
+                    "value": 0.9,
+                    "unit": "mg"
+                },
+                "vitaminB12": {
+                    "value": 0.4,
+                    "unit": "mcg"
+                }
+            }
+        },
+        {
+            "name": "Beef Steak",
+            "nutrition": {
+                "calories": {
+                    "value": 250,
+                    "unit": "kcal"
+                },
+                "protein": {
+                    "value": 26,
+                    "unit": "g"
+                },
+                "fat": {
+                    "value": 17,
+                    "unit": "g"
+                },
+                "sodium": {
+                    "value": 60,
+                    "unit": "mg"
+                },
+                "iron": {
+                    "value": 2.5,
+                    "unit": "mg"
+                },
+                "zinc": {
+                    "value": 5,
+                    "unit": "mg"
+                },
+                "vitaminB12": {
+                    "value": 2.3,
+                    "unit": "mcg"
+                }
+            }
+        },
+        {
+            "name": "Salmon Fillet",
+            "nutrition": {
+                "calories": {
+                    "value": 206,
+                    "unit": "kcal"
+                },
+                "protein": {
+                    "value": 22,
+                    "unit": "g"
+                },
+                "fat": {
+                    "value": 13,
+                    "unit": "g"
+                },
+                "sodium": {
+                    "value": 62,
+                    "unit": "mg"
+                },
+                "iron": {
+                    "value": 0.5,
+                    "unit": "mg"
+                },
+                "zinc": {
+                    "value": 0.5,
+                    "unit": "mg"
+                },
+                "vitaminB12": {
+                    "value": 2.8,
+                    "unit": "mcg"
+                }
+            }
+        }
+    ]
+}

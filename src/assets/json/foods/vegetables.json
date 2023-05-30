@@ -1,0 +1,115 @@
+{
+    "vegetables": [
+        {
+            "name": "Broccoli",
+            "nutrition": {
+                "calories": {
+                    "value": 55,
+                    "unit": "kcal"
+                },
+                "carbohydrates": {
+                    "value": 11,
+                    "unit": "g"
+                },
+                "fiber": {
+                    "value": 5.1,
+                    "unit": "g"
+                },
+                "protein": {
+                    "value": 3.7,
+                    "unit": "g"
+                },
+                "fat": {
+                    "value": 0.6,
+                    "unit": "g"
+                },
+                "vitaminC": {
+                    "value": 89.2,
+                    "unit": "mg"
+                },
+                "vitaminK": {
+                    "value": 101.6,
+                    "unit": "mcg"
+                },
+                "vitaminA": {
+                    "value": 567,
+                    "unit": "IU"
+                }
+            }
+        },
+        {
+            "name": "Spinach",
+            "nutrition": {
+                "calories": {
+                    "value": 23,
+                    "unit": "kcal"
+                },
+                "carbohydrates": {
+                    "value": 3.6,
+                    "unit": "g"
+                },
+                "fiber": {
+                    "value": 2.2,
+                    "unit": "g"
+                },
+                "protein": {
+                    "value": 2.9,
+                    "unit": "g"
+                },
+                "fat": {
+                    "value": 0.4,
+                    "unit": "g"
+                },
+                "vitaminC": {
+                    "value": 28.1,
+                    "unit": "mg"
+                },
+                "vitaminK": {
+                    "value": 483,
+                    "unit": "mcg"
+                },
+                "vitaminA": {
+                    "value": 469,
+                    "unit": "IU"
+                }
+            }
+        },
+        {
+            "name": "Carrots",
+            "nutrition": {
+                "calories": {
+                    "value": 41,
+                    "unit": "kcal"
+                },
+                "carbohydrates": {
+                    "value": 10,
+                    "unit": "g"
+                },
+                "fiber": {
+                    "value": 2.8,
+                    "unit": "g"
+                },
+                "protein": {
+                    "value": 0.9,
+                    "unit": "g"
+                },
+                "fat": {
+                    "value": 0.2,
+                    "unit": "g"
+                },
+                "vitaminC": {
+                    "value": 5.9,
+                    "unit": "mg"
+                },
+                "vitaminK": {
+                    "value": 13.2,
+                    "unit": "mcg"
+                },
+                "vitaminA": {
+                    "value": 16706,
+                    "unit": "IU"
+                }
+            }
+        }
+    ]
+}
