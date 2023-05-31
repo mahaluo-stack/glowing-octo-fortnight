@@ -1,0 +1,4 @@
+<div *ngFor="let item of foodItems">
+    <p>{{ item.name }}</p>
+    <p *ngFor="let data of item.nutrition | keyvalue">{{ data.key }}: {{ data.value.value }}{{data.value.unit}}</p>
+</div>

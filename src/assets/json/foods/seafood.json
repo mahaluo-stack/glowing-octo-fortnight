@@ -1,103 +1,101 @@
-{
-    "seafood": [
-        {
-            "name": "Shrimp",
-            "nutrition": {
-                "calories": {
-                    "value": 85,
-                    "unit": "kcal"
-                },
-                "protein": {
-                    "value": 18,
-                    "unit": "g"
-                },
-                "fat": {
-                    "value": 1.7,
-                    "unit": "g"
-                },
-                "sodium": {
-                    "value": 111,
-                    "unit": "mg"
-                },
-                "iron": {
-                    "value": 2.6,
-                    "unit": "mg"
-                },
-                "vitaminD": {
-                    "value": 0.6,
-                    "unit": "mcg"
-                },
-                "vitaminB12": {
-                    "value": 1.2,
-                    "unit": "mcg"
-                }
-            }
-        },
-        {
-            "name": "Salmon",
-            "nutrition": {
-                "calories": {
-                    "value": 206,
-                    "unit": "kcal"
-                },
-                "protein": {
-                    "value": 22,
-                    "unit": "g"
-                },
-                "fat": {
-                    "value": 13,
-                    "unit": "g"
-                },
-                "sodium": {
-                    "value": 62,
-                    "unit": "mg"
-                },
-                "iron": {
-                    "value": 0.5,
-                    "unit": "mg"
-                },
-                "vitaminD": {
-                    "value": 12.5,
-                    "unit": "mcg"
-                },
-                "vitaminB12": {
-                    "value": 2.8,
-                    "unit": "mcg"
-                }
-            }
-        },
-        {
-            "name": "Tuna",
-            "nutrition": {
-                "calories": {
-                    "value": 184,
-                    "unit": "kcal"
-                },
-                "protein": {
-                    "value": 40,
-                    "unit": "g"
-                },
-                "fat": {
-                    "value": 1,
-                    "unit": "g"
-                },
-                "sodium": {
-                    "value": 47,
-                    "unit": "mg"
-                },
-                "iron": {
-                    "value": 1.3,
-                    "unit": "mg"
-                },
-                "vitaminD": {
-                    "value": 4.1,
-                    "unit": "mcg"
-                },
-                "vitaminB12": {
-                    "value": 9.3,
-                    "unit": "mcg"
-                }
+[
+    {
+        "name": "Shrimp",
+        "nutrition": {
+            "calories": {
+                "value": 85,
+                "unit": "kcal"
+            },
+            "protein": {
+                "value": 18,
+                "unit": "g"
+            },
+            "fat": {
+                "value": 1.7,
+                "unit": "g"
+            },
+            "sodium": {
+                "value": 111,
+                "unit": "mg"
+            },
+            "iron": {
+                "value": 2.6,
+                "unit": "mg"
+            },
+            "vitaminD": {
+                "value": 0.6,
+                "unit": "mcg"
+            },
+            "vitaminB12": {
+                "value": 1.2,
+                "unit": "mcg"
             }
         }
-    ]
-}
+    },
+    {
+        "name": "Salmon",
+        "nutrition": {
+            "calories": {
+                "value": 206,
+                "unit": "kcal"
+            },
+            "protein": {
+                "value": 22,
+                "unit": "g"
+            },
+            "fat": {
+                "value": 13,
+                "unit": "g"
+            },
+            "sodium": {
+                "value": 62,
+                "unit": "mg"
+            },
+            "iron": {
+                "value": 0.5,
+                "unit": "mg"
+            },
+            "vitaminD": {
+                "value": 12.5,
+                "unit": "mcg"
+            },
+            "vitaminB12": {
+                "value": 2.8,
+                "unit": "mcg"
+            }
+        }
+    },
+    {
+        "name": "Tuna",
+        "nutrition": {
+            "calories": {
+                "value": 184,
+                "unit": "kcal"
+            },
+            "protein": {
+                "value": 40,
+                "unit": "g"
+            },
+            "fat": {
+                "value": 1,
+                "unit": "g"
+            },
+            "sodium": {
+                "value": 47,
+                "unit": "mg"
+            },
+            "iron": {
+                "value": 1.3,
+                "unit": "mg"
+            },
+            "vitaminD": {
+                "value": 4.1,
+                "unit": "mcg"
+            },
+            "vitaminB12": {
+                "value": 9.3,
+                "unit": "mcg"
+            }
+        }
+    }
+]

@@ -1,7 +1,8 @@
-import { Component, OnInit, ViewContainerRef } from '@angular/core';
-import { DynamicFoodDataComponent } from 'src/app/shared/components/dynamic-food-data/dynamic-food-data.component';
-import { FoodDataType } from 'src/app/shared/models';
-import { DynamicFoodDataComponentService } from 'src/app/shared/services/dynamic-component.service';
+import { Component, OnInit, ViewContainerRef, ViewChild } from '@angular/core';
+import { firstValueFrom } from 'rxjs';
+import { FoodDataComponent } from 'src/app/core/features/food-information/food-data/food-data.component';
+import { FoodCategoryType, FoodItemType } from 'src/app/shared/models';
+import { ComponentService, FoodDataService } from 'src/app/shared/services';
 
 @Component({
   selector: 'app-food-information',
@@ -10,14 +11,32 @@ import { DynamicFoodDataComponentService } from 'src/app/shared/services/dynamic
 })
 export class FoodInformationComponent implements OnInit {
 
-  constructor(private dynamicFoodDataComponentService: DynamicFoodDataComponentService, private viewContainerRef: ViewContainerRef) {
-    this.dynamicFoodDataComponentService.viewContainerRef = this.viewContainerRef;
+  @ViewChild('foodDataContainer', { read: ViewContainerRef })
+  container!: ViewContainerRef;
+  categories: Array<FoodCategoryType> = [];
+  foodItems: Array<FoodItemType> = [];
+
+  constructor(private componentService: ComponentService, private viewContainerRef: ViewContainerRef, private foodDataService: FoodDataService) {
+    this.componentService.viewContainerRef = this.viewContainerRef;
   }
 
   ngOnInit(): void {
-    this.dynamicFoodDataComponentService.createDynamicComponent(DynamicFoodDataComponent)
-      .catch((error: {}) => {
-        console.error('Failed to create dynamic component:', error);
-      });
+    const categories$ = this.foodDataService.getCategoryNames();
+    firstValueFrom(categories$)
+      .then((foodCategories) => { this.categories = foodCategories; })
+      .catch((error: {}) => { console.error('Failed to create dynamic component:', error); });
+  }
+
+  handleOpenCategory(category: string): void {
+    const foodItems$ = this.foodDataService.getCategoryItems(category);
+    firstValueFrom(foodItems$)
+      .then((foodItems) => { this.createDataComponent(foodItems); })
+      .catch((error: {}) => { console.error('Failed to create dynamic component:', error); });
+  }
+
+  createDataComponent(foodItems: Array<FoodItemType>): void {
+    this.componentService.createDynamicComponent(FoodDataComponent)
+      .then((res) => { res.instance.foodItems = foodItems; })
+      .catch((error: {}) => { console.error('Failed to create dynamic component:', error); });
   }
 }

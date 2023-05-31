@@ -1,0 +1,141 @@
+[
+    {
+        "arms": {
+            "muscles": {
+                "triceps": [
+                    "long head",
+                    "lateral head",
+                    "medial head"
+                ],
+                "biceps": [
+                    "brachii",
+                    "brachialis",
+                    "brachioradialis"
+                ]
+            }
+        },
+        "legs": {
+            "muscles": {
+                "quadriceps": [
+                    "rectus femoris",
+                    "vastus lateralis",
+                    "vastus medialis",
+                    "vastus intermedius"
+                ],
+                "hamstrings": [
+                    "biceps femoris",
+                    "semitendinosus",
+                    "semimembranosus"
+                ],
+                "calves": [
+                    "gastrocnemius",
+                    "soleus",
+                    "tibialis posterior",
+                    "plantaris"
+                ]
+            }
+        },
+        "chest": {
+            "muscles": {
+                "pectoralis major": [
+                    "clavicular head",
+                    "sternal head"
+                ],
+                "pectoralis minor": []
+            }
+        },
+        "back": {
+            "muscles": {
+                "latissimus dorsi": [],
+                "erector spinae": [
+                    "iliocostalis",
+                    "longissimus",
+                    "spinalis"
+                ],
+                "trapezius": [],
+                "rhomboids": [
+                    "major",
+                    "minor"
+                ]
+            }
+        },
+        "shoulders": {
+            "muscles": {
+                "deltoids": [
+                    "anterior",
+                    "lateral",
+                    "posterior"
+                ],
+                "rotator cuff": [
+                    "supraspinatus",
+                    "infraspinatus",
+                    "teres minor",
+                    "subscapularis"
+                ],
+                "trapezius": []
+            }
+        },
+        "abs": {
+            "muscles": {
+                "rectus abdominis": [],
+                "obliques": [
+                    "external oblique",
+                    "internal oblique",
+                    "transversus abdominis"
+                ]
+            }
+        },
+        "glutes": {
+            "muscles": {
+                "gluteus maximus": [],
+                "gluteus medius": [],
+                "gluteus minimus": []
+            }
+        },
+        "forearms": {
+            "muscles": {
+                "extensors": [
+                    "extensor carpi radialis longus",
+                    "extensor carpi radialis brevis",
+                    "extensor digitorum",
+                    "extensor digiti minimi"
+                ],
+                "flexors": [
+                    "flexor carpi radialis",
+                    "flexor carpi ulnaris",
+                    "flexor digitorum superficialis",
+                    "flexor digitorum profundus"
+                ],
+                "pronators": [
+                    "pronator teres",
+                    "pronator quadratus"
+                ],
+                "supinators": [
+                    "supinator"
+                ]
+            }
+        },
+        "neck": {
+            "muscles": {
+                "sternocleidomastoid": [],
+                "trapezius": [],
+                "splenius": [
+                    "splenius capitis",
+                    "splenius cervicis"
+                ],
+                "scalenes": [
+                    "anterior scalene",
+                    "middle scalene",
+                    "posterior scalene"
+                ]
+            }
+        },
+        "abs-lateral": {
+            "muscles": {
+                "external oblique": [],
+                "internal oblique": [],
+                "transversus abdominis": []
+            }
+        }
+    }
+]

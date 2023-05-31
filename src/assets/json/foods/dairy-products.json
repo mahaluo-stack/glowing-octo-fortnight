@@ -1,147 +1,145 @@
-{
-    "dairy-products": [
-        {
-            "name": "Milk",
-            "nutrition": {
-                "calories": {
-                    "value": 103,
-                    "unit": "kcal"
-                },
-                "carbohydrates": {
-                    "value": 12,
-                    "unit": "g"
-                },
-                "protein": {
-                    "value": 8,
-                    "unit": "g"
-                },
-                "fat": {
-                    "value": 5,
-                    "unit": "g"
-                },
-                "saturatedFat": {
-                    "value": 3.2,
-                    "unit": "g"
-                },
-                "cholesterol": {
-                    "value": 18,
-                    "unit": "mg"
-                },
-                "sodium": {
-                    "value": 103,
-                    "unit": "mg"
-                },
-                "potassium": {
-                    "value": 366,
-                    "unit": "mg"
-                },
-                "calcium": {
-                    "value": 276,
-                    "unit": "mg"
-                },
-                "vitaminD": {
-                    "value": 2.9,
-                    "unit": "mcg"
-                },
-                "vitaminB12": {
-                    "value": 1.1,
-                    "unit": "mcg"
-                },
-                "vitaminA": {
-                    "value": 103,
-                    "unit": "mcg"
-                }
-            }
-        },
-        {
-            "name": "Yogurt",
-            "nutrition": {
-                "calories": {
-                    "value": 59,
-                    "unit": "kcal"
-                },
-                "carbohydrates": {
-                    "value": 5,
-                    "unit": "g"
-                },
-                "protein": {
-                    "value": 10,
-                    "unit": "g"
-                },
-                "fat": {
-                    "value": 0.4,
-                    "unit": "g"
-                },
-                "saturatedFat": {
-                    "value": 0.2,
-                    "unit": "g"
-                },
-                "cholesterol": {
-                    "value": 3,
-                    "unit": "mg"
-                },
-                "sodium": {
-                    "value": 40,
-                    "unit": "mg"
-                },
-                "potassium": {
-                    "value": 380,
-                    "unit": "mg"
-                },
-                "calcium": {
-                    "value": 183,
-                    "unit": "mg"
-                },
-                "vitaminB12": {
-                    "value": 0.4,
-                    "unit": "mcg"
-                },
-                "vitaminA": {
-                    "value": 20,
-                    "unit": "mcg"
-                }
-            }
-        },
-        {
-            "name": "Cheese",
-            "nutrition": {
-                "calories": {
-                    "value": 113,
-                    "unit": "kcal"
-                },
-                "carbohydrates": {
-                    "value": 1.3,
-                    "unit": "g"
-                },
-                "protein": {
-                    "value": 7,
-                    "unit": "g"
-                },
-                "fat": {
-                    "value": 9,
-                    "unit": "g"
-                },
-                "saturatedFat": {
-                    "value": 5.6,
-                    "unit": "g"
-                },
-                "cholesterol": {
-                    "value": 29,
-                    "unit": "mg"
-                },
-                "sodium": {
-                    "value": 238,
-                    "unit": "mg"
-                },
-                "calcium": {
-                    "value": 212,
-                    "unit": "mg"
-                },
-                "vitaminB12": {
-                    "value": 0.9,
-                    "unit": "mcg"
-                }
+[
+    {
+        "name": "Milk",
+        "nutrition": {
+            "calories": {
+                "value": 103,
+                "unit": "kcal"
+            },
+            "carbohydrates": {
+                "value": 12,
+                "unit": "g"
+            },
+            "protein": {
+                "value": 8,
+                "unit": "g"
+            },
+            "fat": {
+                "value": 5,
+                "unit": "g"
+            },
+            "saturatedFat": {
+                "value": 3.2,
+                "unit": "g"
+            },
+            "cholesterol": {
+                "value": 18,
+                "unit": "mg"
+            },
+            "sodium": {
+                "value": 103,
+                "unit": "mg"
+            },
+            "potassium": {
+                "value": 366,
+                "unit": "mg"
+            },
+            "calcium": {
+                "value": 276,
+                "unit": "mg"
+            },
+            "vitaminD": {
+                "value": 2.9,
+                "unit": "mcg"
+            },
+            "vitaminB12": {
+                "value": 1.1,
+                "unit": "mcg"
+            },
+            "vitaminA": {
+                "value": 103,
+                "unit": "mcg"
             }
         }
-    ]
-}
+    },
+    {
+        "name": "Yogurt",
+        "nutrition": {
+            "calories": {
+                "value": 59,
+                "unit": "kcal"
+            },
+            "carbohydrates": {
+                "value": 5,
+                "unit": "g"
+            },
+            "protein": {
+                "value": 10,
+                "unit": "g"
+            },
+            "fat": {
+                "value": 0.4,
+                "unit": "g"
+            },
+            "saturatedFat": {
+                "value": 0.2,
+                "unit": "g"
+            },
+            "cholesterol": {
+                "value": 3,
+                "unit": "mg"
+            },
+            "sodium": {
+                "value": 40,
+                "unit": "mg"
+            },
+            "potassium": {
+                "value": 380,
+                "unit": "mg"
+            },
+            "calcium": {
+                "value": 183,
+                "unit": "mg"
+            },
+            "vitaminB12": {
+                "value": 0.4,
+                "unit": "mcg"
+            },
+            "vitaminA": {
+                "value": 20,
+                "unit": "mcg"
+            }
+        }
+    },
+    {
+        "name": "Cheese",
+        "nutrition": {
+            "calories": {
+                "value": 113,
+                "unit": "kcal"
+            },
+            "carbohydrates": {
+                "value": 1.3,
+                "unit": "g"
+            },
+            "protein": {
+                "value": 7,
+                "unit": "g"
+            },
+            "fat": {
+                "value": 9,
+                "unit": "g"
+            },
+            "saturatedFat": {
+                "value": 5.6,
+                "unit": "g"
+            },
+            "cholesterol": {
+                "value": 29,
+                "unit": "mg"
+            },
+            "sodium": {
+                "value": 238,
+                "unit": "mg"
+            },
+            "calcium": {
+                "value": 212,
+                "unit": "mg"
+            },
+            "vitaminB12": {
+                "value": 0.9,
+                "unit": "mcg"
+            }
+        }
+    }
+]

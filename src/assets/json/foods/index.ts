@@ -1,0 +1,9 @@
+export { default as CATEGORIES } from './categories.json';
+export { default as BEVERAGES } from './beverages.json';
+export { default as DAIRY_PRODUCTS } from './dairy-products.json';
+export { default as FRUITS } from './fruits.json';
+export { default as GRAINS_AND_CEREALS } from './grains-and-cereals.json';
+export { default as LEGUMES } from './legumes.json';
+export { default as MEAT_AND_POULTRY } from './meat-and-poultry.json';
+export { default as SEAFOOD } from './seafood.json';
+export { default as VEGETABLES } from './vegetables.json';

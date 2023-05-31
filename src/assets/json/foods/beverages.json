@@ -1,111 +1,105 @@
-{
-    "beverages": [
-        {
-            "name": "Orange Juice",
-            "nutrition": {
-                "calories": {
-                    "value": 112,
-                    "unit": "kcal"
-                },
-                "carbohydrates": {
-                    "value": 26,
-                    "unit": "g"
-                },
-                "protein": {
-                    "value": 2,
-                    "unit": "g"
-                },
-                "fat": {
-                    "value": 0,
-                    "unit": "g"
-                },
-                "vitaminC": {
-                    "value": 124,
-                    "unit": "mg"
-                },
-                "potassium": {
-                    "value": 450,
-                    "unit": "mg"
-                },
-                "calcium": {
-                    "value": 27,
-                    "unit": "mg"
-                },
-                "iron": {
-                    "value": 0.5,
-                    "unit": "mg"
-                }
-            }
-        },
-        {
-            "name": "Green Tea",
-            "nutrition": {
-                "calories": {
-                    "value": 2,
-                    "unit": "kcal"
-                },
-                "carbohydrates": {
-                    "value": 0,
-                    "unit": "g"
-                },
-                "protein": {
-                    "value": 0,
-                    "unit": "g"
-                },
-                "fat": {
-                    "value": 0,
-                    "unit": "g"
-                },
-                "potassium": {
-                    "value": 8,
-                    "unit": "mg"
-                },
-                "calcium": {
-                    "value": 2,
-                    "unit": "mg"
-                }
-            }
-        },
-        {
-            "name": "Chocolate Milkshake",
-            "nutrition": {
-                "calories": {
-                    "value": 357,
-                    "unit": "kcal"
-                },
-                "carbohydrates": {
-                    "value": 50,
-                    "unit": "g"
-                },
-                "protein": {
-                    "value": 10,
-                    "unit": "g"
-                },
-                "fat": {
-                    "value": 12,
-                    "unit": "g"
-                },
-                "saturatedFat": {
-                    "value": 7,
-                    "unit": "g"
-                },
-                "cholesterol": {
-                    "value": 40,
-                    "unit": "mg"
-                },
-                "sodium": {
-                    "value": 130,
-                    "unit": "mg"
-                },
-                "calcium": {
-                    "value": 313,
-                    "unit": "mg"
-                },
-                "vitaminD": {
-                    "value": 1.1,
-                    "unit": "mcg"
-                }
+[
+    {
+        "name": "Orange Juice",
+        "nutrition": {
+            "calories": {
+                "value": 112,
+                "unit": "kcal"
+            },
+            "carbohydrates": {
+                "value": 26,
+                "unit": "g"
+            },
+            "protein": {
+                "value": 2,
+                "unit": "g"
+            },
+            "fat": {
+                "value": 0,
+                "unit": "g"
+            },
+            "vitaminC": {
+                "value": 124,
+                "unit": "mg"
+            },
+            "potassium": {
+                "value": 450,
+                "unit": "mg"
+            },
+            "calcium": {
+                "value": 27,
+                "unit": "mg"
+            },
+            "iron": {
+                "value": 0.5,
+                "unit": "mg"
             }
         }
-    ]
-}
+    },
+    {
+        "name": "Green Tea",
+        "nutrition": {
+            "calories": {
+                "value": 2,
+                "unit": "kcal"
+            },
+            "carbohydrates": {
+                "value": 0,
+                "unit": "g"
+            },
+            "protein": {
+                "value": 0,
+                "unit": "g"
+            },
+            "fat": {
+                "value": 0,
+                "unit": "g"
+            },
+            "potassium": {
+                "value": 8,
+                "unit": "mg"
+            },
+            "calcium": {
+                "value": 2,
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "name": "Chocolate Milkshake",
+        "nutrition": {
+            "calories": {
+                "value": 357,
+                "unit": "kcal"
+            },
+            "carbohydrates": {
+                "value": 50,
+                "unit": "g"
+            },
+            "protein": {
+                "value": 10,
+                "unit": "g"
+            },
+            "fat": {
+                "value": 12,
+                "unit": "g"
+            },
+            "saturatedFat": {
+                "value": 7,
+                "unit": "g"
+            },
+            "cholesterol": {
+                "value": 40,
+                "unit": "mg"
+            },
+            "sodium": {
+                "value": 130,
+                "unit": "mg"
+            },
+            "calcium": {
+                "value": 313,
+                "unit": "mg"
+            }
+        }
+    }
+]

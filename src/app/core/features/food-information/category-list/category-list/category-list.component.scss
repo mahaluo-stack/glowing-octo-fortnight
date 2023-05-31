@@ -1,0 +1,25 @@
+.categoryContainer {
+    display: flex;
+    flex-direction: column;
+
+    .noHover {
+        cursor: default;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+        white-space: normal;
+        width: max-content;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}

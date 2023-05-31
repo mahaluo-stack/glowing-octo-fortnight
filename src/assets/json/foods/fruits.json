@@ -1,103 +1,101 @@
-{
-    "fruits": [
-        {
-            "name": "Apple",
-            "nutrition": {
-                "calories": {
-                    "value": 52,
-                    "unit": "kcal"
-                },
-                "carbohydrates": {
-                    "value": 14,
-                    "unit": "g"
-                },
-                "fiber": {
-                    "value": 2.4,
-                    "unit": "g"
-                },
-                "sugar": {
-                    "value": 10.3,
-                    "unit": "g"
-                },
-                "protein": {
-                    "value": 0.3,
-                    "unit": "g"
-                },
-                "vitaminC": {
-                    "value": 0.8,
-                    "unit": "mg"
-                },
-                "potassium": {
-                    "value": 107,
-                    "unit": "mg"
-                }
-            }
-        },
-        {
-            "name": "Banana",
-            "nutrition": {
-                "calories": {
-                    "value": 96,
-                    "unit": "kcal"
-                },
-                "carbohydrates": {
-                    "value": 23,
-                    "unit": "g"
-                },
-                "fiber": {
-                    "value": 2.6,
-                    "unit": "g"
-                },
-                "sugar": {
-                    "value": 17.2,
-                    "unit": "g"
-                },
-                "protein": {
-                    "value": 1.2,
-                    "unit": "g"
-                },
-                "vitaminC": {
-                    "value": 8.7,
-                    "unit": "mg"
-                },
-                "potassium": {
-                    "value": 358,
-                    "unit": "mg"
-                }
-            }
-        },
-        {
-            "name": "Strawberry",
-            "nutrition": {
-                "calories": {
-                    "value": 29,
-                    "unit": "kcal"
-                },
-                "carbohydrates": {
-                    "value": 7,
-                    "unit": "g"
-                },
-                "fiber": {
-                    "value": 2,
-                    "unit": "g"
-                },
-                "sugar": {
-                    "value": 4.9,
-                    "unit": "g"
-                },
-                "protein": {
-                    "value": 0.7,
-                    "unit": "g"
-                },
-                "vitaminC": {
-                    "value": 58.8,
-                    "unit": "mg"
-                },
-                "potassium": {
-                    "value": 153,
-                    "unit": "mg"
-                }
+[
+    {
+        "name": "Apple",
+        "nutrition": {
+            "calories": {
+                "value": 52,
+                "unit": "kcal"
+            },
+            "carbohydrates": {
+                "value": 14,
+                "unit": "g"
+            },
+            "fiber": {
+                "value": 2.4,
+                "unit": "g"
+            },
+            "sugar": {
+                "value": 10.3,
+                "unit": "g"
+            },
+            "protein": {
+                "value": 0.3,
+                "unit": "g"
+            },
+            "vitaminC": {
+                "value": 0.8,
+                "unit": "mg"
+            },
+            "potassium": {
+                "value": 107,
+                "unit": "mg"
             }
         }
-    ]
-}
+    },
+    {
+        "name": "Banana",
+        "nutrition": {
+            "calories": {
+                "value": 96,
+                "unit": "kcal"
+            },
+            "carbohydrates": {
+                "value": 23,
+                "unit": "g"
+            },
+            "fiber": {
+                "value": 2.6,
+                "unit": "g"
+            },
+            "sugar": {
+                "value": 17.2,
+                "unit": "g"
+            },
+            "protein": {
+                "value": 1.2,
+                "unit": "g"
+            },
+            "vitaminC": {
+                "value": 8.7,
+                "unit": "mg"
+            },
+            "potassium": {
+                "value": 358,
+                "unit": "mg"
+            }
+        }
+    },
+    {
+        "name": "Strawberry",
+        "nutrition": {
+            "calories": {
+                "value": 29,
+                "unit": "kcal"
+            },
+            "carbohydrates": {
+                "value": 7,
+                "unit": "g"
+            },
+            "fiber": {
+                "value": 2,
+                "unit": "g"
+            },
+            "sugar": {
+                "value": 4.9,
+                "unit": "g"
+            },
+            "protein": {
+                "value": 0.7,
+                "unit": "g"
+            },
+            "vitaminC": {
+                "value": 58.8,
+                "unit": "mg"
+            },
+            "potassium": {
+                "value": 153,
+                "unit": "mg"
+            }
+        }
+    }
+]
